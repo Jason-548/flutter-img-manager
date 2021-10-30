@@ -6,24 +6,24 @@ Importing images into a flutter projects like pain in ass, so I wrote this tool 
 
 It should be very easy to import if your work invironment is like mine:
 
-  downloading imgages from lanhuapp.com where our design drawing of projects are,
+- downloading imgages from lanhuapp.com where our design drawing of projects are,
 
-  then unzip the package,
+- then unzip the package,
   
-  copy these images into a source folder,
+- copy these images into a source folder,
   
-  then set this source folder into cfg.json as source,
+- then set this source folder into cfg.json as source,
   
-  set images folder of your flutter project into cfg.json as destination,
+- set images folder of your flutter project into cfg.json as destination,
   
-  run start_cmd.py,
+- run start_cmd.py,
   
-  type import,
+- type import,
 
-  your images from source folder should copied into the images folder now.
+- your images from source folder should copied into the images folder now.
   
   
-There are some command you can use:
+There are some commands you can use:
 
   1. q or quit
   2. set source path
