@@ -49,3 +49,5 @@ if __name__ == '__main__':
             cmds = s.split(' ')
             if len(cmds) == 3:
                 rename_by_name_content(destination, cmds[1], cmds[2])
+        if s.startswith('format'):
+            rename_by_name_content(destination, '／', '-')

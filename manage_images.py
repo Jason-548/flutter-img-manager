@@ -38,6 +38,14 @@ def rename_image(images_path, old_name, new_name):
         x3_n = os.path.join(images_path, '3.0x', new_name)
         if os.path.exists(x1_n) or os.path.exists(x2_n) or os.path.exists(x3_n):
             print('new name is exist')
+            s = input('Delete old file? (y/n)>>')
+            if s == 'y':
+                if os.path.exists(x1_n):
+                    os.remove(x1_n)
+                if os.path.exists(x2_n):
+                    os.remove(x2_n)
+                if os.path.exists(x3_n):
+                    os.remove(x3_n)
         else:
             if os.path.exists(x1_o):
                 os.rename(x1_o, x1_n)
